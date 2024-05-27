@@ -26,9 +26,11 @@ public class MagicalItem {
     @Column(name = "item_type")
     String type = "";
 
+    public MagicalItem(){}
+
     @Override
     public String toString() {
-        return name + "," + quality + "," + type;
+        return name + ", " + quality + ", " + type;
     }
 
     public String getName() {

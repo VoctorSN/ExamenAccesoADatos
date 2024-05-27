@@ -65,7 +65,7 @@ public class RepoTest {
 	 * a una tabla una propiedad Enum es
 	 * 	@Enumerated(EnumType.STRING)
 	 */
-	/**
+
 	@Test
 	public void test_mapping_wizard() {
 		Wizard squib = em.find(Wizard.class, "Marius Black");
@@ -81,7 +81,7 @@ public class RepoTest {
 	 * El id de esta clase ha de seguir una estrategia
 	 * Identity
 	 */
-	/**
+
 	@Test
 	public void test_mapping_order() {
 		Order pedido = em.find(Order.class, 1L);
