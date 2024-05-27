@@ -1,3 +1,10 @@
+Alumno Víctor Sánchez Nogueira,
+
+Aunque me gustaría haber podido implementar El DAO 
+(hasta cree la rama) pero devido a mucho errores con nullpoinerException 
+lo deje como está ahora    
+  :(
+
 INSTRUCCIONS
 =============
 
@@ -34,3 +41,4 @@ Realiza un `push` ao repo remoto en GitHub **só cando remates o proxecto**.
        
        SHOW ME WHAT YOU'VE GOT! 
 ```
+

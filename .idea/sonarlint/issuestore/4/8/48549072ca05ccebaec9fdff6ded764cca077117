@@ -1,16 +1,16 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñ8¦¨ÖÉû1J$b1b9d2ea-8b02-4763-a4d8-18eef457645a
-«
-java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Õñ¿™ÿÿÿÿÿ8µ¨ÖÉû1J$2ad6a88c-2f3e-43fd-94f6-2e88ab1f2cbb
-
-java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¶¨ÖÉû1J$53cf6416-c93b-4cd5-8a38-12ccbea431e8
-
-java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¸¨ÖÉû1J$b6cacd57-ecb7-46f4-8b69-9be762b19560
-
-java:S3252 "ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8º¨ÖÉû1J$74a6570f-f850-4a63-8226-855ee7cdac69
-
-java:S3252&"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(å±‰ı8»¨ÖÉû1J$8e9ee0f1-ac3d-4adb-be75-e2b4fe1a5e3a
- 
-java:S3252I"]Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "deleteById".(úË†±8öñŞÉû1J$ba8747a2-38a6-4e2f-b64c-7304dde7666b
-œ
-java:S3252M"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(‹êô8æ‰’Êû1J$22a010cf-c611-481c-af27-e0df77ca28a0
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñ8÷­İÊû1J$a32c6f5f-1211-4137-8cd9-918f70f92ac2
+…
+java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Õñ¿™ÿÿÿÿÿ8ÅÖ Ëû1
+w
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8ÈÖ Ëû1
+w
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8ËÖ Ëû1
+w
+java:S3252 "ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8ÌÖ Ëû1
+w
+java:S3252&"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(å±‰ı8ÎÖ Ëû1
+z
+java:S3252I"]Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "deleteById".(úË†±8ÔÖ Ëû1
+v
+java:S3252M"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(‹êô8ÕÖ Ëû1

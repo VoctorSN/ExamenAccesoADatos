@@ -104,3 +104,7 @@ o
 ?src/main/java/edu/badpals/ExamenAccesoADatos/domain/Person.java,1\2\12f63c4d9877d43c8c8589998928722d976f6856
 j
 :src/main/java/edu/badpals/ExamenAccesoADatos/Resource.java,c\1\c120c2fbd1814463505f5b177b09b3db6286305a
+|
+Lsrc/main/java/edu/badpals/ExamenAccesoADatos/repository/MagicalItemRepo.java,6\5\65ad2d30513c29df64f50fae7613256e5c9ce27c
+w
+Gsrc/main/java/edu/badpals/ExamenAccesoADatos/repository/WizardRepo.java,f\6\f67d3f02e57649dcb30b243a958263bfe8776c54
