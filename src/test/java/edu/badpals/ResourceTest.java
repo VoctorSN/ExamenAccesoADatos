@@ -4,6 +4,7 @@ import edu.badpals.ExamenAccesoADatos.Resource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
 import jakarta.inject.Inject;
+import jakarta.ws.rs.core.MediaType;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -105,7 +106,7 @@ public class ResourceTest {
 	 * La peticion ha de redirigirse al servicio.
 	 * El servicio utiliza el repositorio
 	 * para hacer la consulta a la base de datos.
-     *//**
+     */
 	@Test
     public void test_post_item() throws Exception {
 
@@ -128,7 +129,7 @@ public class ResourceTest {
      * si alguna de sus propiedades es nula o vacia.
      * El controlador devuelve 400 por defecto si 
      * el documento JSON no satisface la validacion.
-     *//**
+     */
     @Test
     public void test_post_item_ko() {
 

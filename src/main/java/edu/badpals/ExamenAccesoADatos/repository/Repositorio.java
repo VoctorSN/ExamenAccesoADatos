@@ -54,8 +54,10 @@ public class Repositorio {
 
     @Transactional
     public void createItem(String name, int quality, String type) {
-        MagicalItem item = new MagicalItem(name,quality,type);
-        item.persist();
+        if (!name.isEmpty() && !type.isEmpty()){
+            MagicalItem item = new MagicalItem(name,quality,type);
+            item.persist();
+        }
     }
 
     @Transactional
