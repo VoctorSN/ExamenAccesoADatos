@@ -21,10 +21,10 @@ public class RepoTest {
 
     @PersistenceContext
 	EntityManager em;
-
+/**
 	@Inject
 	Repositorio repo;
-
+	/**
 	@Inject
 	ServiceItem servicio;
 
@@ -65,6 +65,7 @@ public class RepoTest {
 	 * a una tabla una propiedad Enum es
 	 * 	@Enumerated(EnumType.STRING)
 	 */
+	/**
 	@Test
 	public void test_mapping_wizard() {
 		Wizard squib = em.find(Wizard.class, "Marius Black");
@@ -80,6 +81,7 @@ public class RepoTest {
 	 * El id de esta clase ha de seguir una estrategia
 	 * Identity
 	 */
+	/**
 	@Test
 	public void test_mapping_order() {
 		Order pedido = em.find(Order.class, 1L);
@@ -97,6 +99,7 @@ public class RepoTest {
 	 * @Inject
 	 * Repositorio repo;
 	 */
+	/**
 	@Test
 	public void test_repositorio_existe() {
 		Assertions.assertThat(repo).isNotNull();
@@ -106,7 +109,7 @@ public class RepoTest {
 	 * Implementa el metodo loadWizard del repositorio
 	 * que devuelve un Optional del mago/a con el nombre indicado
 	 */
-	
+	/**
 	@Test
 	public void test_load_wizard() {
 		Assertions.assertThat(repo).isNotNull();
@@ -129,6 +132,7 @@ public class RepoTest {
 	 * El metodo devueve el primer item cuyo nombre
 	 * coincida con el especificado.
 	 */
+	/**
 	@Test
 	public void test_load_item() {
 		Assertions.assertThat(repo).isNotNull();
@@ -151,6 +155,7 @@ public class RepoTest {
      * y no cualquier otro item de la base de datos
      * que tenga sólo el mismo nombre.
 	 */
+	/**
 	@Test
 	public void test_load_item_equal() {
 		Assertions.assertThat(repo).isNotNull();
@@ -172,6 +177,7 @@ public class RepoTest {
 	 * 
 	 * Ojo que el nombre del item no es la clave primaria.
 	 */
+	/**
 	@Test
 	public void test_load_items() {
 		Assertions.assertThat(repo).isNotNull();
@@ -193,7 +199,7 @@ public class RepoTest {
 	 *  
 	 * Los magos/as mudblood NO pueden comprar un item.
 	 */
-
+	/**
 	@Test
 	@Transactional
 	public void test_pedido() {
@@ -225,6 +231,7 @@ public class RepoTest {
 	 * Implementa el metodo createItem() del repositorio
 	 * que crea un item en la base de datos.
 	 */
+	/**
 	@Test
 	@Transactional
 	public void test_create_item() {
@@ -249,7 +256,7 @@ public class RepoTest {
 	 * devolvera uno de los pases a backstage que no
 	 * es el que buscamos.
 	 */
-
+	/**
 	@Test
 	@Transactional
 	public void test_create_items() {
@@ -291,6 +298,7 @@ public class RepoTest {
      * y no cualquier otro item de la base de datos
      * solo con el mismo nombre.
      */
+	/**
 	@Test
 	@Transactional
 	public void test_delete_item() {
@@ -317,6 +325,7 @@ public class RepoTest {
 	 * @Inject
 	 * ServiceItem servicio;
 	 */
+	/**
 	@Test
 	public void test_servicio_existe() {
 		Assertions.assertThat(servicio).isNotNull();
