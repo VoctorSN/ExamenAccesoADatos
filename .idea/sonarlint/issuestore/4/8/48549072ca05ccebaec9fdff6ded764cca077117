@@ -1,10 +1,14 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñ8™“ÚÇû1
-…
-java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Õñ¿™ÿÿÿÿÿ8¡“ÚÇû1
-w
-java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¢“ÚÇû1
-w
-java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¤“ÚÇû1
-w
-java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¦“ÚÇû1
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñ8û†òÈû1J$a87e8276-0a35-41ae-9a1a-40eac23d65ac
+«
+java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Õñ¿™ÿÿÿÿÿ8‰‡òÈû1J$f4faac5f-471f-47a6-ac2b-06533b97af8e
+
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8Š‡òÈû1J$9b282b1d-84fe-492b-b6fc-11ddedc28c15
+
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8Œ‡òÈû1J$86dc0991-b1d9-4f3d-aa15-24c3f7d6492f
+
+java:S3252 "ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8‡òÈû1J$59dd10fd-cd3f-4ed5-8c8e-b7df7c953ffa
+
+java:S3252&"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(å±‰ı8‡òÈû1J$44ea523b-5131-49ef-b7e9-bb02d8318491
+ 
+java:S3252G"]Use static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "deleteById".(úË†±8µÕòÈû1J$171914ce-e1f9-4806-813b-62199368e290

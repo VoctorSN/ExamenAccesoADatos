@@ -102,3 +102,5 @@ Q.idea/sonarlint/securityhotspotstore/9/3/93fca4f02bdfff012891b0bfecac3b4e1aeb84
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
 o
 ?src/main/java/edu/badpals/ExamenAccesoADatos/domain/Person.java,1\2\12f63c4d9877d43c8c8589998928722d976f6856
+j
+:src/main/java/edu/badpals/ExamenAccesoADatos/Resource.java,c\1\c120c2fbd1814463505f5b177b09b3db6286305a

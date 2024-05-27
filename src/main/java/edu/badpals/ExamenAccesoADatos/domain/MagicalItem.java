@@ -11,7 +11,7 @@ public class MagicalItem extends PanacheEntityBase {
 
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "item_id")
     Long id;
 

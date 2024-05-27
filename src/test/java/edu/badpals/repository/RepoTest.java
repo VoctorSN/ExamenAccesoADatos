@@ -24,7 +24,7 @@ public class RepoTest {
 
 	@Inject
 	Repositorio repo;
-	/**
+
 	@Inject
 	ServiceItem servicio;
 
@@ -197,7 +197,7 @@ public class RepoTest {
 	 *  
 	 * Los magos/as mudblood NO pueden comprar un item.
 	 */
-	/**
+
 	@Test
 	@Transactional
 	public void test_pedido() {
@@ -206,12 +206,12 @@ public class RepoTest {
 		Assertions.assertThat(repo).isNotNull();
 		Optional<Order> orden = repo.placeOrder("Hermione", "Elixir of the Mongoose");
 		Assertions.assertThat(orden).isEmpty();
- 
+
 		// Marius Black compra un item
 		orden = repo.placeOrder("Marius Black", "Elixir of the Mongoose");
 		Assertions.assertThat(orden).isNotEmpty();
- 
-		Assertions.assertThat(orden.get().getId()).isNotZero();
+
+		Assertions.assertThat(orden.get().getId()).isNotEqualTo(0L);
 		Assertions.assertThat(orden.get().getWizard().getName()).isEqualTo("Marius Black");
 		Assertions.assertThat(orden.get().getItem().getName()).isEqualTo("Elixir of the Mongoose");
   
@@ -229,7 +229,7 @@ public class RepoTest {
 	 * Implementa el metodo createItem() del repositorio
 	 * que crea un item en la base de datos.
 	 */
-	/**
+
 	@Test
 	@Transactional
 	public void test_create_item() {
@@ -254,7 +254,6 @@ public class RepoTest {
 	 * devolvera uno de los pases a backstage que no
 	 * es el que buscamos.
 	 */
-	/**
 	@Test
 	@Transactional
 	public void test_create_items() {
@@ -296,7 +295,7 @@ public class RepoTest {
      * y no cualquier otro item de la base de datos
      * solo con el mismo nombre.
      */
-	/**
+
 	@Test
 	@Transactional
 	public void test_delete_item() {
@@ -323,7 +322,7 @@ public class RepoTest {
 	 * @Inject
 	 * ServiceItem servicio;
 	 */
-	/**
+
 	@Test
 	public void test_servicio_existe() {
 		Assertions.assertThat(servicio).isNotNull();

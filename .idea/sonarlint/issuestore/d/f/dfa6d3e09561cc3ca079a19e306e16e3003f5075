@@ -1,4 +1,7 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ˜ŠâJ$bc2400ea-aaa6-4c34-872a-f590a078abf1
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ˜ŠâJ$d2fc7cf0-8cee-4d72-8c0a-bce21faa60c0
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÌªè8™ÃöÈû1J$6c552ce3-e994-42f5-852a-bb992cd02c02
 Š
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ùè…´üÿÿÿÿ8ãÝÿÅû1J$d47ce45b-fab0-4c2c-8ae0-884d60e167ce
+java:S6813
+"BRemove this field injection and use constructor injection instead.(Áº–Žüÿÿÿÿ8æºùÈû1J$4767d3ce-c872-436b-a9b5-c56b50646ef2

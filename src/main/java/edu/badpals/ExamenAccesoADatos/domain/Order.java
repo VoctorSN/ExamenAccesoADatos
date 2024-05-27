@@ -10,10 +10,15 @@ public class Order extends PanacheEntityBase {
 
     public Order(){}
 
+    public Order(Wizard wizard, MagicalItem item){
+        this.wizard = wizard;
+        this.item = item;
+    }
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "ord_id", unique = true)
-    String id = "";
+    Long id;
 
 
     @ManyToOne
@@ -32,11 +37,11 @@ public class Order extends PanacheEntityBase {
         return wizard + ", " + item;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
