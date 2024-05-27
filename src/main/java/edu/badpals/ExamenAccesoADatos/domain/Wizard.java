@@ -1,12 +1,13 @@
 package edu.badpals.ExamenAccesoADatos.domain;
 
 
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.*;
 
 
 @Entity
 @Table(name="t_wizards")
-public class Wizard {
+public class Wizard extends PanacheEntityBase {
 
     public Wizard(){}
 

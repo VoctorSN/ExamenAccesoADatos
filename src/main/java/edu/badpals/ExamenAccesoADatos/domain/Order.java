@@ -1,11 +1,12 @@
 package edu.badpals.ExamenAccesoADatos.domain;
 
 
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name="t_orders")
-public class Order {
+public class Order extends PanacheEntityBase {
 
     public Order(){}
 

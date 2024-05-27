@@ -1,4 +1,10 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñJ$bf5749c7-e33b-443b-b2b1-94fa2d4b99df
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø˜²ñ8™“ÚÇû1
 …
-java:S2094"BRemove this empty class, write its code or make it an "interface".(ÇÄÙœ8ÒçþÅû1J$c92b14b1-a997-42b0-920e-7287b649eda6
+java:S3252"cUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "findByIdOptional".(Õñ¿™ÿÿÿÿÿ8¡“ÚÇû1
+w
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¢“ÚÇû1
+w
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¤“ÚÇû1
+w
+java:S3252"ZUse static access with "io.quarkus.hibernate.orm.panache.PanacheEntityBase" for "listAll".(¹–ôÿ8¦“ÚÇû1

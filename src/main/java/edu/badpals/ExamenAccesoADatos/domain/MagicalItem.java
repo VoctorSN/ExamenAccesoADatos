@@ -1,11 +1,12 @@
 package edu.badpals.ExamenAccesoADatos.domain;
 
 
+import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name="t_items")
-public class MagicalItem {
+public class MagicalItem extends PanacheEntityBase {
 
 
 
@@ -27,6 +28,12 @@ public class MagicalItem {
     String type = "";
 
     public MagicalItem(){}
+
+    public MagicalItem(String name, int quality, String type) {
+        this.name = name;
+        this.quality = quality;
+        this.type = type;
+    }
 
     @Override
     public String toString() {
