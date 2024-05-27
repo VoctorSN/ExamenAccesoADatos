@@ -72,4 +72,8 @@ public class Repositorio {
         Optional<MagicalItem> itemBBDD = this.loadItem(item);
         itemBBDD.ifPresent(magicalItem -> MagicalItem.deleteById(magicalItem.getId()));
     }
+
+    public List<MagicalItem> items (){
+        return MagicalItem.listAll();
+    }
 }

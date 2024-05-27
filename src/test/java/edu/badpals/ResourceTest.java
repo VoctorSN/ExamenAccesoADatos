@@ -9,8 +9,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 @QuarkusTest
 public class ResourceTest {
@@ -160,7 +159,7 @@ public class ResourceTest {
 	 * La consulta ha de redirigirse al servicio.
 	 * El servicio utiliza el repositorio
 	 * para hacer la consulta a la base de datos.
-     *//**
+     */
     @Test
     public void test_get_items() throws Exception {
 
@@ -205,7 +204,7 @@ public class ResourceTest {
 	 * La peticion ha de redirigirse al servicio.
 	 * El servicio utiliza el repositorio
 	 * para hacer la consulta a la base de datos.
-     *//**
+     */
     
     @Test
     public void test_delete_item() {
@@ -219,5 +218,5 @@ public class ResourceTest {
             .statusCode(200)
             .body("$.size()", is(2));
     }
-    **/
+
 }

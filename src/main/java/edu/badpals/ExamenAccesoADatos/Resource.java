@@ -10,6 +10,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 import java.lang.management.OperatingSystemMXBean;
+import java.util.List;
 import java.util.Optional;
 
 @Path("/")
@@ -42,11 +43,33 @@ public class Resource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     @Transactional
-    public Response post(@Valid MagicalItem itemPar) {
+    public Response cItem(@Valid MagicalItem itemPar) {
         service.repo.createItem(itemPar.getName(),itemPar.getQuality(),itemPar.getType());
         Optional<MagicalItem> item = service.repo.loadItem(itemPar);
         return item.isPresent()?
                 Response.status(Response.Status.CREATED).entity(item.get()).build():
                 Response.status(Response.Status.BAD_REQUEST).build();
+    }
+
+    @GET
+    @Path("/items/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getItems(@PathParam("name") String nombre) {
+        List<MagicalItem> item = service.repo.loadItems(nombre);
+        if (item.isEmpty()){
+            return Response.status(Response.Status.NOT_FOUND).build();
+        } else {
+            return Response.status(Response.Status.OK).entity(item).build();
+        }
+    }
+
+    @DELETE
+    @Path("/item/")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @Transactional
+    public List<MagicalItem> deleteItem(@Valid MagicalItem itemPar) {
+        service.repo.deleteItem(itemPar);
+        return service.repo.loadItems(itemPar.getName());
     }
 }
