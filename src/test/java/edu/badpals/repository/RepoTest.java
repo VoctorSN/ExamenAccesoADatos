@@ -21,7 +21,7 @@ public class RepoTest {
 
     @PersistenceContext
 	EntityManager em;
-/**
+
 	@Inject
 	Repositorio repo;
 	/**
@@ -99,7 +99,6 @@ public class RepoTest {
 	 * @Inject
 	 * Repositorio repo;
 	 */
-	/**
 	@Test
 	public void test_repositorio_existe() {
 		Assertions.assertThat(repo).isNotNull();
@@ -109,7 +108,7 @@ public class RepoTest {
 	 * Implementa el metodo loadWizard del repositorio
 	 * que devuelve un Optional del mago/a con el nombre indicado
 	 */
-	/**
+
 	@Test
 	public void test_load_wizard() {
 		Assertions.assertThat(repo).isNotNull();
@@ -132,7 +131,6 @@ public class RepoTest {
 	 * El metodo devueve el primer item cuyo nombre
 	 * coincida con el especificado.
 	 */
-	/**
 	@Test
 	public void test_load_item() {
 		Assertions.assertThat(repo).isNotNull();
@@ -155,7 +153,7 @@ public class RepoTest {
      * y no cualquier otro item de la base de datos
      * que tenga sólo el mismo nombre.
 	 */
-	/**
+
 	@Test
 	public void test_load_item_equal() {
 		Assertions.assertThat(repo).isNotNull();
@@ -177,7 +175,7 @@ public class RepoTest {
 	 * 
 	 * Ojo que el nombre del item no es la clave primaria.
 	 */
-	/**
+
 	@Test
 	public void test_load_items() {
 		Assertions.assertThat(repo).isNotNull();
