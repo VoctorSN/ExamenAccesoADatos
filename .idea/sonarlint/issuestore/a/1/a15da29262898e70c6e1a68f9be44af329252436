@@ -1,0 +1,8 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û¡àw8î±˜Æû1J$5227830c-46c3-4c2b-9e37-5f3b03c02257
+Š
+java:S2094"BRemove this empty class, write its code or make it an "interface".(—±íÅþÿÿÿÿ8×¶›Æû1J$ed2d071f-64b6-41fe-b2b8-2f850679d609
+z
+java:S1128"7Remove this unused import 'jakarta.persistence.Entity'.(…ÅÊÆ8Ù¶›Æû1J$c593ccb4-37ca-4c8d-abcd-4318e3da9a26
+y
+java:S1128"6Remove this unused import 'jakarta.persistence.Table'.(Ÿ£‘ã8Ù¶›Æû1J$9b6a9cc2-7256-4146-99c4-ca1a5e3c8f89

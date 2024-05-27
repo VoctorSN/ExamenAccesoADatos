@@ -1,3 +1,20 @@
+package edu.badpals.repository;
+import edu.badpals.ExamenAccesoADatos.ServiceItem;
+import edu.badpals.ExamenAccesoADatos.domain.MagicalItem;
+import edu.badpals.ExamenAccesoADatos.domain.Order;
+import edu.badpals.ExamenAccesoADatos.domain.Wizard;
+import edu.badpals.ExamenAccesoADatos.repository.Repositorio;
+import io.quarkus.test.junit.QuarkusTest;
+import jakarta.inject.Inject;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
+import jakarta.transaction.Transactional;
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import java.util.List;
+import java.util.Optional;
 
 @QuarkusTest
 public class RepoTest {
@@ -5,11 +22,11 @@ public class RepoTest {
     @PersistenceContext
 	EntityManager em;
 
-	// @Inject
-	// Repositorio repo;
+	@Inject
+	Repositorio repo;
 
-	// @Inject
-    // ServiceItem servicio;
+	@Inject
+	ServiceItem servicio;
 
     /**
 	 * Tests sobre los mappings
