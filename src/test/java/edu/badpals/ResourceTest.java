@@ -1,11 +1,19 @@
 package edu.badpals;
 
+import edu.badpals.ExamenAccesoADatos.Resource;
 import io.quarkus.test.junit.QuarkusTest;
+import io.restassured.http.ContentType;
 import jakarta.inject.Inject;
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 
 @QuarkusTest
 public class ResourceTest {
-    /**
+
     @Inject
     Resource resources;
 
@@ -19,7 +27,7 @@ public class ResourceTest {
      * ha de pasar por el servicio antes de
      * llegar al repositorio.
      */
-    /**
+
     @Test
     public void test_injeccion() {
         Assertions.assertThat(resources.service).isNotNull();
@@ -31,7 +39,7 @@ public class ResourceTest {
      * recibimos un TEXT con el mensaje
      * "CRUD de Items!""
      */
-    /**
+
     @Test
     public void test_wellcome() {
         given()
@@ -53,7 +61,7 @@ public class ResourceTest {
 	 * La consulta ha de redirigirse al servicio.
 	 * El servicio utiliza el repositorio
 	 * para hacer la consulta a la base de datos.
-     *//**
+     */
     @Test
     public void test_get_item() throws Exception {
 

@@ -7,7 +7,6 @@ import jakarta.inject.Inject;
 @ApplicationScoped
 public class ServiceItem {
 
-    @Inject
-    Repositorio repo;
+    public Repositorio repo = new Repositorio();
     public ServiceItem(){}
 }

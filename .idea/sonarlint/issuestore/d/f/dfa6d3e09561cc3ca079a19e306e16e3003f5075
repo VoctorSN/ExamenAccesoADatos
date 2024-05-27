@@ -1,7 +1,9 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ˜ŠâJ$d2fc7cf0-8cee-4d72-8c0a-bce21faa60c0
+˜
+java:S1104
+"PMake repo a static final constant or non-public and provide accessors if needed.(ü‰öáüÿÿÿÿ8Ô†ÁÉû1J$c000b8ff-2ed0-485d-ab6b-cf5e3270d6eb
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ˜ŠâJ$94d934cb-5faf-4717-9a1f-b0a8c364012b
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÌªè8™ÃöÈû1J$6c552ce3-e994-42f5-852a-bb992cd02c02
-Š
-java:S6813
-"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8æºùÈû1J$4767d3ce-c872-436b-a9b5-c56b50646ef2
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÌªè8™ÃöÈû1J$81d8d2b6-5ff4-4419-b735-74b73d4a5f70
+z
+java:S1128"2Remove this unused import 'jakarta.inject.Inject'.(‘ø”şÿÿÿÿ8Ú†ÁÉû1J$591a9b11-1bdd-47a0-8bea-e2ae5c98cedb
